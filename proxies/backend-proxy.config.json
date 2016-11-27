@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "https://anno.exb.de",
+    "secure": false
+  }
+}

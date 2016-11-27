@@ -1,0 +1,7 @@
+<md-input [(ngModel)]="binding"></md-input>
+<button md-raised-button color="primary" (click)="addToList()">PRIMARY</button>
+
+
+<md-list *ngFor="let user of users$|async">
+  <app-user [user]="user"></app-user>
+</md-list>
